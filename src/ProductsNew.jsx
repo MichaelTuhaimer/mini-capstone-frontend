@@ -18,6 +18,9 @@ export function ProductsNew({ onCreate }) {
         <div>
           Description: <input name="description" type="text" />
         </div>
+        <div>
+          Supplier ID: <input name="supplier_id" type="text" />
+        </div>
         <button type="submit">Create product</button>
       </form>
     </div>

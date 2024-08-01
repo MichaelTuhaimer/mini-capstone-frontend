@@ -1,6 +1,6 @@
 export function ProductsIndex({ products, onShowProduct }) {
   return (
-    <div>
+    <div id="products-index">
       <h1>All products</h1>
       {products.map((product) => (
         <div key={product.id}>
